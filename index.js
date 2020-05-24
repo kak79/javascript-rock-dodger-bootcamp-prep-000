@@ -105,9 +105,9 @@ function moveDodger(e) {
   });
   
   document.addEventListener('keydown', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
+
      if (e.which === RIGHT_ARROW) {
+       
       moveDodgerRight();
      }
   });
