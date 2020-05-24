@@ -96,9 +96,9 @@ var rock;
 function moveDodger(e) {
   
   document.addEventListener('keydown', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
+
      if (e.which === LEFT_ARROW) {
+       
       moveDodgerLeft();
      }
   });
