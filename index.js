@@ -89,7 +89,7 @@ var rock;
   
   window.alert("YOU LOSE!");  
   
-  START.style.display = 'Play Again?';
+  START.style.display = '';
   
 } 
 
